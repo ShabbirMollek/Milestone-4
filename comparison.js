@@ -13,6 +13,10 @@ var applePrice =160;
 if (applePrice>guavaPrice){
                 // console.log("i buy Guava")
 }
-else(
-//                 console.log("I have no enough money")
-// )
+else{
+                // console.log("I have no enough money")  
+
+}
+                
+
+               
