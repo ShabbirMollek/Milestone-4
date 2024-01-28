@@ -48,24 +48,17 @@ var height = 1.75 ;
 var bmi = weight / (height)^2 ;
 
 if (bmi < 18.5 ){
-    console.log("You are underweight")
+    // console.log("You are underweight")
 }
 else if(bmi>=18.5 && bmi <= 24.9){
-    console.log("You are normal")
+    // console.log("You are normal")
 }
 else if (bmi>=25 && bmi<=29.9){
-    console.log("You are overweight")
+    // console.log("You are overweight")
 }
 else{
-    console.log("You are obese")
+    // console.log("You are obese")
 }
-
-
-
-
-
-
-
 
 
 
@@ -86,18 +79,23 @@ Create a simple JavaScript program that takes a student's score as input and ret
     F: 0-59
 
 ***/
+var score =50;
 
-
-
-
-
-
-
-
-
-
-
-
+if (score >=90 && score <=100){
+    // console.log("A grade")
+}
+else if (score >=80 && score<=89){
+    // console.log("B grade")
+}
+else if (score >= 70 && score<=79){
+    // console.log("C grade")
+}
+else if (score>=60 && score <=69){
+    // console.log("C grade")
+}
+else {
+    // console.log("Fail")
+}
 
 
 
