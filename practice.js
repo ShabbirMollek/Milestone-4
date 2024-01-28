@@ -114,14 +114,21 @@ Note:
 use nested if-else-if-else
 */
 
+var friendScore =67 ;
 
 
-
-
-
-
-
-
+if (friendScore > 80) {
+        // console.log("Go for a lunch with your friend.");
+} 
+else if (friendScore >= 60) {
+        // console.log("Tell your friend, good luck next time.");
+} 
+else if (friendScore >= 40) {
+        // console.log("Keep your friend's message unseen.");
+} else
+{
+        // console.log("Block your friend.");
+}
 
 
 
@@ -143,11 +150,23 @@ also, write it using ternary operator.
 
  */
 
+var num1 =10 ;
+var num2=12;
+
+
+if (num1> num2){
+         var result = num1*2
+        //  console.log(result);
+}
+else{
+    var result= num1 + num2 ;
+    // console.log(result);
+}
 
 
 
-
-
+// ternary operation
+num1 > num2 ?  console.log( result = num1*2):console.log(result= num1 + num2 )
 
 
 
@@ -171,3 +190,24 @@ Ticket fare Calculator
     - Senior citizens (age >= 60) gets a 15% Discount
     - Otherwise Regular ticket fare 800 tk
 */
+
+var ticketPrice =800 ;
+var childrenAge = 12 ;
+var studentAge = 34 ;
+var seniorCitizen = 63;
+
+if (childrenAge < 10 ) {
+    console.log("Free")
+}
+else if ( studentAge >= 18) {
+    var discountPrice = ticketPrice * 50/100
+    console.log(discountPrice);
+
+}
+else if (age >= 60 ){
+    var discountPrice = ticketPrice * 15/100
+    console.log(discountPrice);
+}
+else{
+    consol.log("Regular Price : 800tk")
+}
