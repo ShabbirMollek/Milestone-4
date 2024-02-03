@@ -5,7 +5,7 @@ const school ="Rajuk Uttara Model School";
 const subject ="Chemestry";
 const book ="chemestry";
 
-if (subject.toLocaleLowerCase() === book.toLocaleLowerCase()){
+if (subject.toLowerCase() === book.toLowerCase()){
                 // console.log("amake diye kisu hobe na")
 }
 else {
